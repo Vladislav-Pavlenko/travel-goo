@@ -1,0 +1,14 @@
+.swiper-container {
+  height: 536px;
+  overflow: hidden;
+}
+
+.number-container .number-container .swiper-wrapper {
+  height: 68px;
+}
+
+.number-container .swiper-slide {
+  display: flex;
+  align-items: center;
+  height: 80px !important;
+}
