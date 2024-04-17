@@ -1,4 +1,5 @@
-/* Global */
+/* ------------------------------------------ Global -------------------------------------------- */
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -71,7 +72,8 @@ body {
   overflow-x: hidden;
 }
 
-/* Decoration */
+/* ------------------------------------------ Decoration -------------------------------------------- */
+
 .container {
   min-width: 375px;
   padding: 0 15px;
@@ -80,25 +82,22 @@ body {
   overflow: hidden;
 }
 
-/* Header */
+/* ------------------------------------------ Header -------------------------------------------- */
 
 .header {
   position: absolute;
-  /* padding: 32px 0; */
   padding: 12px 0;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  /* max-width: 125vh; */
 }
 
 .header-logo {
   color: rgb(255, 255, 255);
   font-family: "Laila", sans-serif;
   font-size: 18px;
-  /* font-size: 32px; */
   font-weight: 700;
   text-align: center;
 }
@@ -129,15 +128,15 @@ body {
 .header-button-svg {
   fill: #ffffff;
 }
-/* Hero */
+
+/* ------------------------------------------ Hero -------------------------------------------- */
 
 .hero {
-  background-image: url("../img/background-image.jpeg");
+  background-image: url("../img/background-image.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 172px 0 80px;
-  /* padding: 232px 0; */
+  padding: 192px 0 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,17 +144,14 @@ body {
 
 .hero-title {
   color: rgb(255, 255, 255);
-  /* font-size: 75px; */
   font-size: 45px;
   font-weight: 800;
   line-height: 1.36;
-  /* margin-bottom: 57px; */
   margin-bottom: 27px;
 }
 
 .hero-description {
   color: rgb(255, 255, 255);
-  /* font-size: 16px; */
   font-size: 13px;
   line-height: 1.37;
   max-width: 568px;
@@ -165,12 +161,10 @@ body {
 
 .hero-button {
   color: rgb(19, 19, 19);
-  /* font-size: 24px; */
   font-size: 16px;
   font-weight: 600;
   line-height: 1.37;
 
-  /* padding: 13px 22px; */
   padding: 8px 12px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
@@ -181,7 +175,7 @@ body {
   background-color: rgb(0, 166, 81);
 }
 
-/* Services */
+/* ------------------------------------------ Services -------------------------------------------- */
 
 .services {
   padding: 88px 0;
@@ -195,14 +189,12 @@ body {
   font-weight: 700;
   line-height: 1.35;
   text-align: center;
-  /* margin-bottom: 63px; */
   margin-bottom: 43px;
 }
 
 .services-list {
   display: flex;
   flex-direction: column;
-  /* gap: 95px; */
 }
 
 .services-list-item {
@@ -239,7 +231,7 @@ body {
   line-height: 1.37;
 }
 
-/* About */
+/* ------------------------------------------ About -------------------------------------------- */
 
 .about {
   padding: 81px 0 113px;
@@ -247,7 +239,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/world-map-bg.png");
+  background-image: url("../img/world-map-bg.webp");
 }
 
 .about-title {
@@ -261,7 +253,6 @@ body {
 .about-list {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   gap: 30px;
   align-items: center;
 }
@@ -297,10 +288,12 @@ body {
   text-align: center;
 }
 
-/* Ukraine */
+/* ------------------------------------------ Ukraine -------------------------------------------- */
+
 .ukraine {
   padding: 72px 0 52px;
 }
+
 .ukraine-title {
   font-size: 40px;
   font-weight: 700;
@@ -308,6 +301,7 @@ body {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .ukraine-description {
   font-size: 16px;
   font-weight: 400;
@@ -315,9 +309,11 @@ body {
   text-align: center;
   margin-bottom: 55px;
 }
+
 .ukraine-list {
   display: flex;
 }
+
 .ukraine-list-item {
   margin-bottom: 20px;
   padding-bottom: 24px;
@@ -332,9 +328,11 @@ body {
     0px 90.24px 72.19px 0px rgba(0, 0, 0, 0.02);
   background: url(destination-1);
 }
+
 .ukraine-item-img {
   margin-bottom: 24px;
 }
+
 .ukraine-item-name {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -342,10 +340,13 @@ body {
   line-height: 1.24;
   text-align: center;
 }
-/* Italy */
+
+/* ------------------------------------------ Italy -------------------------------------------- */
+
 .italy {
   padding: 72px 0 52px;
 }
+
 .italy-title {
   font-size: 40px;
   font-weight: 700;
@@ -353,6 +354,7 @@ body {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .italy-description {
   font-size: 16px;
   font-weight: 400;
@@ -360,9 +362,11 @@ body {
   text-align: center;
   margin-bottom: 55px;
 }
+
 .italy-list {
   display: flex;
 }
+
 .italy-list-item {
   margin-bottom: 20px;
   padding-bottom: 24px;
@@ -376,9 +380,11 @@ body {
     0px 58.49px 42.28px 0px rgba(0, 0, 0, 0.02),
     0px 90.24px 72.19px 0px rgba(0, 0, 0, 0.02);
 }
+
 .italy-item-img {
   margin-bottom: 24px;
 }
+
 .italy-item-name {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -387,23 +393,19 @@ body {
   text-align: center;
 }
 
-/* Reservation */
+/* ------------------------------------------ Reservation -------------------------------------------- */
 
 .reservation {
-  /* padding: 0px 0 96px; */
-  padding: 0px 0 46px;
+  padding: 0 0 46px;
 }
 
 .form-background {
   background-color: #9fffec66;
-  /* padding: 130px; */
   padding: 40px;
-  /* border-radius: 129px 20px 20px 20px; */
   border-radius: 69px 20px 20px 20px;
 }
 
 .reservation-title {
-  /* font-size: 40px; */
   font-size: 24px;
   font-weight: 700;
   line-height: 1.35;
@@ -418,7 +420,6 @@ body {
 
 .reservation-form-label {
   position: relative;
-  /* font-size: 16px; */
   font-size: 12px;
   font-weight: 500;
   line-height: 1.37;
@@ -429,7 +430,6 @@ body {
   margin-top: 5px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  /* padding: 20px 26px 20px 51px; */
   padding: 16px 22px 16px 46px;
   width: 100%;
   border: 1px solid #000000;
@@ -437,7 +437,6 @@ body {
 }
 
 .reservation-form-input::placeholder {
-  /* font-size: 16px; */
   font-size: 12px;
   font-weight: 500;
   line-height: 1.37;
@@ -451,8 +450,7 @@ body {
 .reservation-form-textarea {
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  /* padding: 18px 26px 18px 51px; */
-  padding: 9px 22px 14px 46px;
+  padding: 17px 22px 14px 46px;
   width: 100%;
   border: 1px solid #000000;
   resize: none;
@@ -460,7 +458,6 @@ body {
 }
 
 .reservation-form-textarea::placeholder {
-  /* font-size: 16px; */
   font-size: 12px;
   font-weight: 500;
   line-height: 1.37;
@@ -474,7 +471,6 @@ body {
 
 .reservation-form-textarea-label {
   position: relative;
-  /* font-size: 16px; */
   font-size: 12px;
   font-weight: 500;
   line-height: 1.37;
@@ -513,7 +509,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Reviews */
+/* ------------------------------------------ Reviews -------------------------------------------- */
 
 .reviews {
   padding: 62px 0 124px;
@@ -529,7 +525,7 @@ body {
 }
 
 .reviews-list-item {
-  background-image: url("../img/rewiews-1.webp");
+  background-image: url("../img/reviews/reviews-1.webp");
   width: 1028px;
   height: 536px;
   background-repeat: no-repeat;
@@ -540,11 +536,11 @@ body {
 }
 
 .reviews-list-item:first-child {
-  background-image: url("../img/rewiews-2.webp");
+  background-image: url("../img/reviews/reviews-2.webp");
 }
 
 .reviews-list-item:last-child {
-  background-image: url("../img/rewiews-3.webp");
+  background-image: url("../img/reviews/reviews-3.webp");
 }
 
 .reviews-item-container {
@@ -552,7 +548,6 @@ body {
   max-width: 328px;
   max-height: 250px;
   margin: 0 auto;
-  /* padding: 80px 0 18px; */
   padding: 40px 0 10px;
 
   position: relative;
@@ -576,7 +571,6 @@ body {
   margin: 0 auto 24px;
 
   font-family: Poppins;
-  /* font-size: 20px; */
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
@@ -586,17 +580,18 @@ body {
   margin: 0 auto;
   text-align: center;
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.5;
 }
 
-/* Footer */
+/* ------------------------------------------ Footer -------------------------------------------- */
 
 .footer {
   padding: 96px 0;
 }
+
 .footer-title {
   color: rgb(0, 0, 0);
   font-family: "Open Sans", sans-serif;
@@ -606,6 +601,7 @@ body {
   margin: 0 auto 20px;
   text-align: center;
 }
+
 .footer-number {
   color: rgb(8, 8, 9);
   font-family: "Open Sans", sans-serif;
@@ -614,16 +610,18 @@ body {
   line-height: 1.24;
   margin-bottom: 30px;
 }
+
 .footer-number-list {
   margin-bottom: 30px;
 }
+
 .footer-number-item {
   border-radius: 15px;
-
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
   background: rgb(255, 255, 255);
   padding: 10px;
 }
+
 .footer-number-link {
   color: rgb(94, 98, 130);
   font-family: "Open Sans", sans-serif;
@@ -631,6 +629,7 @@ body {
   font-weight: 400;
   line-height: 1.24;
 }
+
 .footer-social {
   color: rgb(8, 8, 9);
   font-family: "Open Sans", sans-serif;
@@ -639,9 +638,11 @@ body {
   line-height: 1.24;
   margin-bottom: 30px;
 }
+
 .footer-social-list {
   margin-bottom: 30px;
 }
+
 .footer-social-item {
   border-radius: 15px;
 
@@ -649,6 +650,7 @@ body {
   background: rgb(255, 255, 255);
   padding: 10px;
 }
+
 .footer-social-link {
   display: flex;
   align-items: center;
@@ -661,5 +663,324 @@ body {
   line-height: 1.24;
 }
 
+/* ------------------------------------------ Header menu -------------------------------------------- */
+
+.header-menu {
+  position: relative;
+  top: -10px;
+  right: -55%;
+  padding: 10px 20px;
+  height: 100vh;
+  display: flex;
+  opacity: 0;
+  transform: translateX(100%);
+  flex-direction: column;
+}
+
+.header-menu-nav {
+  display: flex;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-menu-link {
+  color: rgb(19, 19, 19);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.37;
+
+  padding: 8px 12px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------------------ Media queries -------------------------------------------- */
+/* Tablet */
+
 @media screen and (min-width: 768px) {
+  /* decoration */
+  .container {
+    min-width: 768px;
+    padding: 0 24px;
+  }
+
+  /* header */
+
+  .header-logo {
+    font-size: 24px;
+  }
+
+  .header-button-svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* hero */
+
+  .hero {
+    padding: 200px 0 80px;
+  }
+
+  .hero-title {
+    font-size: 64px;
+  }
+
+  .hero-description {
+    font-size: 24px;
+  }
+
+  .hero-button {
+    font-size: 18px;
+    padding: 10px 16px;
+  }
+
+  /* services */
+
+  .services-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .services-list-item {
+    max-width: 330px;
+  }
+
+  /* about */
+
+  .about-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .about-list-item {
+    min-height: 260px;
+  }
+
+  /* reservation */
+
+  .reservation-title {
+    font-size: 36px;
+  }
+
+  .reservation-form-label {
+    font-size: 14px;
+  }
+
+  .reservation-form-input {
+    padding: 18px 24px 18px 48px;
+  }
+
+  .reservation-form-input::placeholder {
+    font-size: 14px;
+  }
+
+  .reservation-form-svg {
+    top: 6.5vh;
+  }
+
+  .reservation-form-textarea {
+    padding: 22px 24px 16px 48px;
+  }
+
+  .reservation-form-textarea::placeholder {
+    font-size: 14px;
+  }
+
+  .reservation-form-description {
+    font-size: 12px;
+  }
+
+  .reservation-form-button {
+    font-size: 18px;
+  }
+
+  /* reviews */
+
+  .reviews-item-container {
+    max-width: 628px;
+    padding: 50px 0 14px;
+  }
+
+  .reviews-item-text {
+    font-size: 18px;
+  }
+
+  .reviews-item-name {
+    font-size: 26px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1023px) {
+  /* decoration */
+  .container {
+    min-width: 1024px;
+    padding: 0 32px;
+  }
+
+  /* header */
+
+  .header {
+    padding: 32px 0;
+  }
+
+  .header-nav {
+    max-width: 125vh;
+  }
+
+  .header-logo {
+    font-size: 32px;
+  }
+
+  .header-list {
+    display: flex;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  /* hero */
+
+  .hero {
+    padding: 232px 0;
+  }
+
+  .hero-title {
+    font-size: 75px;
+    margin-bottom: 57px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    font-size: 24px;
+    padding: 13px 22px;
+  }
+
+  /* services */
+
+  .services-title {
+    margin-bottom: 63px;
+  }
+
+  .services-list {
+    flex-wrap: nowrap;
+  }
+
+  .services-list-item {
+    max-width: 300px;
+  }
+
+  /* about */
+
+  .about-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  /* reservation */
+
+  .reservation {
+    padding: 0 0 96px;
+  }
+
+  .form-background {
+    padding: 130px;
+    border-radius: 129px 20px 20px 20px;
+  }
+
+  .reservation-title {
+    font-size: 40px;
+  }
+
+  .reservation-form-label {
+    font-size: 16px;
+  }
+
+  .reservation-form-input {
+    padding: 20px 26px 20px 51px;
+  }
+
+  .reservation-form-input::placeholder {
+    font-size: 16px;
+  }
+
+  .reservation-form-textarea {
+    padding: 18px 26px 18px 51px;
+  }
+
+  .reservation-form-textarea::placeholder {
+    font-size: 16px;
+  }
+
+  .reservation-form-textarea-label {
+    font-size: 16px;
+  }
+
+  .reservation-form-description {
+    font-size: 14px;
+  }
+
+  .reservation-form-button {
+    padding: 22px 50px;
+  }
+
+  /* reviews */
+
+  .reviews-item-container {
+    padding: 80px 0 18px;
+    top: 300px;
+  }
+
+  .reviews-item-img {
+    max-width: 120px;
+  }
+
+  .reviews-item-text {
+    font-size: 20px;
+  }
+}
+
+/* ----------------------------- Animation ------------------------------ */
+
+.open {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.close {
+  animation: slideOut 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
 }

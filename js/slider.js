@@ -1,69 +1,70 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".swiper-container", {
-    // Опції для Swiper
+  const mySwiper = new Swiper(".swiper-container-reviews-js", {
     initialSlide: 1,
-    slidesPerView: 1, // Кількість видимих слайдів одночасно
-    spaceBetween: 30, // Відстань між слайдами
-    loop: false, // Безкінечна прокрутка
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: false,
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const mySwiper = new Swiper(".swiper-container-numbers-js", {
+    initialSlide: 0,
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: false,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
     },
   });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".swiper-container-c", {
-    // Опції для Swiper
+  const mySwiper = new Swiper(".swiper-container-social-js", {
     initialSlide: 0,
-    slidesPerView: 1, // Кількість видимих слайдів одночасно
-    spaceBetween: 30, // Відстань між слайдами
-    loop: false, // Безкінечна прокрутка
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: false,
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+      },
     },
   });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".swiper-container-s", {
-    // Опції для Swiper
+  const mySwiper = new Swiper(".swiper-container-italy-js", {
     initialSlide: 0,
-    slidesPerView: 1, // Кількість видимих слайдів одночасно
-    spaceBetween: 30, // Відстань між слайдами
-    loop: false, // Безкінечна прокрутка
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    slidesPerView: 2,
+    spaceBetween: 10,
+    loop: false,
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+      },
+      1023: {
+        slidesPerView: 4,
+      },
     },
   });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".swiper-container-i", {
-    // Опції для Swiper
+  const mySwiper = new Swiper(".swiper-container-ukraine-js", {
     initialSlide: 0,
-    slidesPerView: 2, // Кількість видимих слайдів одночасно
-    spaceBetween: 10, // Відстань між слайдами
-    loop: false, // Безкінечна прокрутка
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".swiper-container-u", {
-    // Опції для Swiper
-    initialSlide: 0,
-    slidesPerView: 2, // Кількість видимих слайдів одночасно
-    spaceBetween: 10, // Відстань між слайдами
-    loop: false, // Безкінечна прокрутка
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    slidesPerView: 2,
+    spaceBetween: 10,
+    loop: false,
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+      },
+      1023: {
+        slidesPerView: 4,
+      },
     },
   });
 });

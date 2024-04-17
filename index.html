@@ -21,6 +21,10 @@
     />
 
     <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/slyder.css" />
   </head>
@@ -44,17 +48,33 @@
               <a class="header-link" href="#contacts">Контакти</a>
             </li>
           </ul>
-          <button class="header-button">
+          <button class="header-button menu-button-js">
             <svg class="header-button-svg" width="35" height="35">
               <use href="./img/icon.svg#icon-menu"></use>
             </svg>
           </button>
         </nav>
+
+        <div class="header-menu menu-js">
+          <nav class="header-menu-nav">
+            <ul class="header-menu-list">
+              <li class="header-menu-list-item">
+                <a class="header-menu-link" href="#about">Про нас</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a class="header-menu-link" href="#reservation">Забронювати</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a class="header-menu-link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <!-- Hero -->
-      <div class="hero">
+      <section class="hero">
         <h1 class="hero-title">Travel Goo</h1>
         <p class="hero-description">
           description Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,7 +82,7 @@
           aspernatur eligendi ratione deleniti consequuntur ducimus.
         </p>
         <a class="hero-button" href="#about">Дізнатись більше</a>
-      </div>
+      </section>
       <!-- Services -->
       <section class="services">
         <div class="container">
@@ -148,7 +168,7 @@
                 <use href="./img/icon.svg#icon-building"></use>
               </svg>
               <h3 class="about-item-title">15+</h3>
-              <p class="about-item-text">Більше 15 міст в яких ми працуємо</p>
+              <p class="about-item-text">Більше 15 міст в яких ми працюємо</p>
             </li>
           </ul>
         </div>
@@ -161,7 +181,7 @@
             Тут представлені міста України з яких ми здійснюємо перевезення.
             <br />** Виїзд кожного тиждня у середу **
           </p>
-          <div class="swiper-container-u">
+          <div class="swiper-container-ukraine-js">
             <ul class="ukraine-list swiper-wrapper">
               <li class="ukraine-list-item swiper-slide">
                 <img
@@ -240,7 +260,7 @@
             <br />
             ** Виїзд кожного тижня в суботу **
           </p>
-          <div class="swiper-container-i">
+          <div class="swiper-container-italy-js">
             <ul class="italy-list swiper-wrapper">
               <li class="italy-list-item swiper-slide">
                 <img
@@ -376,7 +396,7 @@
       <section class="reviews">
         <div class="container">
           <h2 class="reviews-title">Відгуки</h2>
-          <div class="swiper-container">
+          <div class="swiper-container-reviews-js">
             <ul class="reviews-list swiper-wrapper">
               <li class="reviews-list-item swiper-slide">
                 <div class="reviews-item-container">
@@ -384,12 +404,12 @@
                     class="reviews-item-img"
                     width="118px"
                     height="118px"
-                    src="./img/Ellipse 30.png"
+                    src="./img/reviews/photo.webp"
                     alt=""
                   />
                   <p class="reviews-item-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                    recusandae obcaecati sint, corrupti ipsum tempora.
+                    recusandae obcaecati sint, corrupti ipsum.
                   </p>
                   <h3 class="reviews-item-name">Ім'я</h3>
                 </div>
@@ -400,7 +420,7 @@
                     class="reviews-item-img"
                     width="118px"
                     height="118px"
-                    src="./img/Ellipse 30.png"
+                    src="./img/reviews/photo.webp"
                     alt=""
                   />
                   <p class="reviews-item-text">
@@ -416,7 +436,7 @@
                     class="reviews-item-img"
                     width="118px"
                     height="118px"
-                    src="./img/Ellipse 30.png"
+                    src="./img/reviews/photo.webp"
                     alt=""
                   />
                   <p class="reviews-item-text">
@@ -437,7 +457,7 @@
         <h2 class="footer-title">Contacts</h2>
         <div class="number-container">
           <h3 class="footer-number">Номера телефону</h3>
-          <div class="swiper-container-c">
+          <div class="swiper-container-numbers-js">
             <ul class="footer-number-list swiper-wrapper">
               <li class="footer-number-item swiper-slide">
                 <a class="footer-number-link" href="tel:+393281555527"
@@ -500,7 +520,7 @@
         </div>
         <div class="social-container">
           <h3 class="footer-social">Соціальні мережі</h3>
-          <div class="swiper-container-s">
+          <div class="swiper-container-social-js">
             <ul class="footer-social-list swiper-wrapper">
               <li class="footer-social-item swiper-slide">
                 <a
@@ -509,7 +529,7 @@
                   target="_blank"
                   width="43"
                   height="43"
-                  ><img src="./img/google.png" alt="google" />Email</a
+                  ><img src="./img/footer/google.webp" alt="google" />Email</a
                 >
               </li>
               <li class="footer-social-item swiper-slide">
@@ -519,7 +539,8 @@
                   target="_blank"
                   width="43"
                   height="43"
-                  ><img src="./img/watsapp.png" alt="whatsapp" /> WathApp</a
+                  ><img src="./img/footer/watsapp.webp" alt="whatsapp" />
+                  WathApp</a
                 >
               </li>
               <li class="footer-social-item swiper-slide">
@@ -529,7 +550,10 @@
                   target="_blank"
                   width="43"
                   height="43"
-                  ><img src="./img/facebook.png" alt="facebook" />Facebook</a
+                  ><img
+                    src="./img/footer/facebook.webp"
+                    alt="facebook"
+                  />Facebook</a
                 >
               </li>
               <li class="footer-social-item swiper-slide">
@@ -539,7 +563,10 @@
                   target="_blank"
                   width="43"
                   height="43"
-                  ><img src="./img/instagram.png" alt="instagram" />Instagram</a
+                  ><img
+                    src="./img/footer/instagram.webp"
+                    alt="instagram"
+                  />Instagram</a
                 >
               </li>
             </ul>
@@ -548,10 +575,6 @@
       </div>
     </footer>
     <script type="module" src="./js/main.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
