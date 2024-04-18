@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 3,
       },
       1023: {
-        slidesPerView: 4,
+        slidesPerView: 5,
       },
     },
   });
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 3,
       },
       1023: {
-        slidesPerView: 4,
+        slidesPerView: 5,
       },
     },
   });
